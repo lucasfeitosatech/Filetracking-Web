@@ -18,7 +18,7 @@ var x = 0;
 
 module.exports = {
     async filetrackingRender(req,res) {
-        res.render('filetracking');
+        res.render(__dirname + '/filetracking');
     },
     async filetrackingPost(req,res,next){
         x = 0;
